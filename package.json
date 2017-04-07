@@ -1,0 +1,34 @@
+{
+  "name": "fin-tense",
+  "version": "1.0.0",
+  "description": "Tense detection for Fin NLP",
+  "main": "./dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "en-inflectors": "^1.0.11",
+    "finnlp": "^1.1.1",
+    "en-parse": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ts-node test/test",
+    "build": "tsc",
+    "prepublish": "npm run test && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexcorvi/fin-tense.git"
+  },
+  "keywords": [
+    "tense",
+    "detection"
+  ],
+  "author": "Alex Corvi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexcorvi/fin-tense/issues"
+  },
+  "homepage": "https://github.com/alexcorvi/fin-tense#readme"
+}
