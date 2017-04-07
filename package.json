@@ -1,17 +1,19 @@
 {
   "name": "fin-tense",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Tense detection for Fin NLP",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "en-inflectors": "^1.0.11",
+    "en-inflectors": "^1.0.11"
+  },
+  "devDependencies": {
     "finnlp": "^1.1.1",
     "en-parse": "^1.1.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "ts-node test/test",
     "build": "tsc",
